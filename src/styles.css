@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Cairo');
 body {
-  background-color: #010;
+  background-color: rgb(0, 0, 0);
 }
 
 .title {
   font-family: "Cairo";
+  font-size: 10px;
   text-align: center;
   color: #FFF;
   display: flex;
@@ -20,28 +21,9 @@ h1 {
   background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
   background-size: cover;
   color: transparent;
-  -moz-background-clip: text;
+  -moz-animation: text;
   -webkit-background-clip: text;
   text-transform: uppercase;
-  font-size: 120px;
+  font-size: 60px;
   margin: 10px 0;
-}
-/* styling my button */
-
-.white-mode {
-  text-decoration: none;
-  padding: 7px 10px;
-  background-color: #122;
-  border-radius: 3px;
-  color: #FFF;
-  transition: .35s ease-in-out;
-  position: absolute;
-  left: 15px;
-  bottom: 15px;
-  font-family: "Montserrat";
-}
-
-.white-mode:hover {
-  background-color: #FFF;
-  color: #122;
 }
